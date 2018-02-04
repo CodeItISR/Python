@@ -27,7 +27,7 @@ num = 1
 a(num)
 print(num)                        # output : 1 
 
-===================================
+#===================================
 #program 3 - change the value of the num
 # when change a variable in a function, it create a local variable that applies only to the function
                                               #the same
@@ -40,7 +40,7 @@ num = a(num)                                  nummber = a(number)
 print(num)        # output : 2                print(number)
 c = 1
 
-===================================
+#===================================
 #program 4 - change the value of the num using global
 
 num = 1
