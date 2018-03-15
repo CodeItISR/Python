@@ -25,9 +25,9 @@ def get_ip():
 def run():
 
     """
-        The main scetular
-        First check if there is any task to in tasks queue,
-        if not wait untill any other data from the connection arrived
+        The main schedular
+        First check if there is any tasks in tasks queue,
+        if not wait untill any other data from the connection is ready for reading
         if there are tasks, call next on them - fowrad the task and then
         append it again to the wait list untill data will arrived
     """
