@@ -40,8 +40,8 @@ def log_info(conn, addr):
 	with acquire_write:
 		with open(FILE_PATH, 'a') as f:
 			f.write(log)
-
-	print('Got the info closing connection:', str(addr))
+	with acquire_print:
+		print('Got the info closing connection:', str(addr))
 	conn.close()
 	
 if __name__ == '__main__':
