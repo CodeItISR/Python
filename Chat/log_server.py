@@ -3,8 +3,7 @@ import socket
 import threading
 
 """
-    This is a multi socket server based on schedular and not threading.
-    The function get_ip works on unix based os.
+    This is a server for saving the client's error
 """
 
 PORT = 20001
@@ -23,7 +22,7 @@ def get_ip():
 
 def log_info(conn, addr):
 
-        """ For each connection get the error message and save it to the log.txt file """
+        """ For each connection get the error message and saves it to the log.txt file """
         
 	global FILE_PATH
 	global acquire_print
