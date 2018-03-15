@@ -1,9 +1,9 @@
 import tkinter as tk
 from tkinter import ttk
 import tkinter.messagebox as messagebox
-import socket
+import socket, sys
 import threading
-import sys
+
 """ 
     client gui contain two frames
     Main() is the root window
