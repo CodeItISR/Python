@@ -26,6 +26,7 @@ def log_info(conn, addr):
         """ For each connection get the error message and saves it to the log.txt file """
         
 	global FILE_PATH
+	global acquire_write
 	global acquire_print
 	
 	log = ''
