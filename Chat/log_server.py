@@ -9,6 +9,7 @@ import threading
 PORT = 20001
 FILE_PATH = 'log.txt'
 
+acquire_write = threading.Lock()
 acquire_print = threading.Lock()
 
 def get_ip():
