@@ -4,8 +4,8 @@ import os
 
 
 """
-    This is a multi socket server based on schedular and not threading.
-    The function get_ip works on unix based os.
+    This is a multi-socket server based on schedular and not threading.
+    The function get_ip works on unix based  os with bash shell.
 """
 
 tasks = deque() # Tasks queue
