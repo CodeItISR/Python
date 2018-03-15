@@ -37,7 +37,7 @@ def log_info(conn, addr):
 			break
 		log = log + text
 
-	with acquire_print:
+	with acquire_write:
 		with open(FILE_PATH, 'a') as f:
 			f.write(log)
 
