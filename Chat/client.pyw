@@ -13,7 +13,6 @@ import threading
 
 LARGE_FONT = ("Verdana", 12)
 RECV_RUN = 0
-RECV = 0
 
 def send_error_info(text, main_socket):
     """
