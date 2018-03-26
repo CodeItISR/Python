@@ -361,5 +361,5 @@ class Local_web_links():
 
 if __name__ == '__main__':
     
-    local_links = Local_web_links('https://sites.envato.com/', 'sites.envato.com/')
+    local_links = Local_web_links('https://website.com/', 'website.com/')
     local_links.start()          
