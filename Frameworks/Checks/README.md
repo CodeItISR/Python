@@ -9,7 +9,7 @@ if the condition is not vaild
 #===================================================
 
 ## Example 1:
-## check if the argument if a integer
+## check if the argument is a integer
 ```python
 
 @check
