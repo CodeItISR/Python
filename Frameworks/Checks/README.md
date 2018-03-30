@@ -1,4 +1,4 @@
-## Checks framework
+# Checks framework
 
 This framework using annotations, it is for adding
 in an easy way functionality to function,
@@ -68,4 +68,4 @@ Then we create a custom message that will raise if the condition doesnt work
 and those main function that makes it append is check_annotation_error(condition, message)
 its check the condition and if its false ,raise an error with that message
 
-##This framework make it clean and easy coding
+## This framework make it clean and easy coding
