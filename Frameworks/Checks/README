@@ -1,4 +1,4 @@
-##Checks framework
+## Checks framework
 
 This framework using annotations, it is for adding
 in an easy way functionality to function,
@@ -8,8 +8,8 @@ if the condition is not vaild
     
 #===================================================
 
-##Example 1:
-##check if the argument if a integer
+## Example 1:
+## check if the argument if a integer
 
 @check
 def print_integer(number : IsInteger):
@@ -21,7 +21,7 @@ rasie an error is its not Integer
 
 #===================================================
 
-##Example 2:
+## Example 2:
 check if first argument is a number
 bigger than 10
 and second arg is string
@@ -38,7 +38,7 @@ so in this example it will execute like this: BiggerThan(number, 10)
 
 #===================================================
 
-##Example 3 - custom annotation functions :
+## Example 3 - custom annotation functions :
 Lets create a function that check if a number is in some sort of range
 To do that there is 1 function you need to import, and the check
 decorator to execute the annotation,here is the full program:
