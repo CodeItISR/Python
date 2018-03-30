@@ -23,9 +23,8 @@ rasie an error is its not Integer
 #===================================================
 
 ## Example 2:
-check if first argument is a number
-bigger than 10
-and second arg is string
+check if the first argument is a number bigger than 10  
+and the second arg is string else raise an error  
 ```python
 
 @check
@@ -41,8 +40,8 @@ so in this example it will execute like this: BiggerThan(number, 10)
 #===================================================
 
 ## Example 3 - custom annotation functions :
-Lets create a function that check if a number is in some sort of range
-To do that there is 1 function you need to import, and the check
+Lets create a function that check if a number is in some sort of range  
+To do that there is 1 function that you need to import, and the check
 decorator to execute the annotation,here is the full program:
 
 ```python
