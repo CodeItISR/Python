@@ -1,12 +1,25 @@
 # Checks framework
 
 This framework using annotations, it is for adding
-conditions for the argument in a function, as easy
-and clean as it can gets.
+conditions for the function's arguments, as easy
+and clean as it can get.
 It will raise an error with detail,
 if the condition is not vaild
 
 python version from 3.3  
+## Install:
+Go to the comand prompt(cmd) or the terminal and write  
+```
+pip install Checks
+```
+If this is not working, Please check if you got pip or try
+to specify the full path to it.    
+In windows for example:  
+```
+C:\Users\user\AppData\Local\Programs\Python\Python36-32\Scripts\pip install Checks
+```
+Other option is to copy the Checks.py file and sabe it in the site-packages in python
+directory
 #===================================================
 
 ## Example 1:
@@ -18,9 +31,9 @@ from Checks import check, IsInteger
 def print_integer(number : IsInteger):
   print(number)
 ```
-@check - the decorator is for executing  
-the IsInteger function with the value of number  
-argument, rasie an error if it isnt an Integer
+@check - the decorator is for executing
+the IsInteger function with the value of number
+argument, rasie an error if it isnt an Integer  
 
 #===================================================
 
